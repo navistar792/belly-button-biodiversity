@@ -12,14 +12,15 @@
 </head>
 
 <body>
+<div class = "container-flex overflow-hidden"">
   <div class="bg-light p-5 rounded-lg m-3 shadow">
     <h1 class="display-4">Belly Button Biodiversity Dashboard</h1>
     <p class="lead">Use the interactive charts below to explore the dataset</p>
     <hr class="my-4">
     <p>Use the interactive charts below to explore the dataset</p>
   </div>
-
-  <div class="container-flex">
+</div>  
+<div class = "container-flex overflow-hidden""></div>
     <div class="row">
       <div class="col-md-2">
         
@@ -33,21 +34,38 @@
           </div>
         </div>
       </div>
+
+
       <div class="col-md-5">
+        <div class="card text-dark bg-light mb-3 shadow">
+          <div class="card-header">blahblah</div>
+          <div class="card-body">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+    </div>
+  </div>
+</div>
+
+<div class="col-md-5">
+  <div class="card text-dark bg-light mb-3 shadow">
+    <div class="card-header">blahblah</div>      
+<div class="col-md-5">
         <div id="gauge"></div>
       </div>
     </div>
+  </div>
+</div>
+    </div>
+
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
+
   </div>
   
-
+</div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
