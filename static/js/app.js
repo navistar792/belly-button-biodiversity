@@ -86,7 +86,7 @@ function buildPlot(){
       var data = [trace2];
     
       var layout = {
-        title: 'Bubble Chart Size Scaling',
+        title: 'OTU Info For Subject',
         showlegend: false,
        };
     
